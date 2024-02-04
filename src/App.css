@@ -241,3 +241,42 @@ img {
     justify-content: space-between;
     padding: 10px;
 }
+
+.bach-section {
+    display: flex;
+}
+
+.bachelor {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.university-imgs {
+    flex: 2;
+}
+
+.bach-paragraph {
+    flex: 3;
+}
+
+.education-container {
+    height: 100vh;
+    background-color: #fb61cd45;
+}
+
+.carusel-container {
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+.cert .navbar {
+    position: static;
+}
+
+.cert {
+    background-color: #f5c2f662;
+    height: 100%;
+}

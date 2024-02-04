@@ -11,6 +11,7 @@ import Navbar from './Components/Navbar';
 import AboutMe from "./Components/AboutMe";
 import Project from "./Components/Projects";
 import Contact from "./Components/Contac";
+import {Link} from "react-router-dom";
 
 function App() {
   return (
@@ -21,10 +22,12 @@ function App() {
         <a className="phone-icon" target="_blank" title="contact with me over phone(+48789603955)" href="tel:+48789603955"> <FaPhoneSquareAlt /></a>
         <a className="linkedIn-icon" target="_blank"  href="https://www.linkedin.com/in/nurlanmusayev/"> <BsLinkedin /></a>
       </div>
-      <Navbar/>
-      <Intro/>
-      <AboutMe/>
-      <Project/>
+
+          <Navbar/>
+          <Intro/>
+          <AboutMe/>
+          <Project/>
+
     </div>
   );
 }
