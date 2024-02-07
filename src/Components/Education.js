@@ -13,7 +13,7 @@ const Education=()=>{
 				<div className="left-side">
 
 					<div className='myimage'><img src={img1} alt="" /></div>
-					<div className='name-in-navbar'>Nurlan Musayev</div>
+					<div className='name-in-navbar'><Link to='/' className='name-link'>Nurlan Musayev</Link></div>
 				</div>
 				<div className="right-side">
 					<Link to='/'>Home</Link>

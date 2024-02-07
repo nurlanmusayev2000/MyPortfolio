@@ -11,7 +11,6 @@ import cert8 from '../imgs/NurlanMusayev - Intro to Machine Learning.png'
 import cert9 from '../imgs/NurlanMusayev - Intro to Programming.png'
 import cert10 from '../imgs/NurlanMusayev - Pandas.png'
 import cert11 from '../imgs/AWS.PNG'
-import cert12 from '../imgs/Endress+Hauser.jpg'
 import cert13 from '../imgs/C sharp.jpg'
 
 
@@ -27,7 +26,7 @@ const Certificates=()=>{
 		<div className="left-side">
 
 			<div className='myimage'><img src={img1} alt="" /></div>
-			<div className='name-in-navbar'>Nurlan Musayev</div>
+			<div className='name-in-navbar'><Link to='/' className='name-link'>Nurlan Musayev</Link></div>
 		</div>
 		<div className="right-side">
 			<Link to='/'>Home</Link>
